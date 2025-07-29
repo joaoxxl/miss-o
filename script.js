@@ -6,10 +6,43 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:Assim que saiu da escola hdhdhhdhdhddhdhdh
+        enunciado:"Enquanto você voltava para casa se deparou com um rato rosa e resolveu segui-lo. Depois de caminhar por 5 minutos atrás do rato você o seguiu para dentro de uma floresta. Entre as árvores você avistou um alçapão na beira de uma árvore, grande o suficiente para que pudesse se encolher e passar. Diante disso sua reação foi:",
         alternativas: [
-            "Isso é assustador!"
-            "Isso é incrível"
+            {
+            texto: "Isso é assustador! Um rato rosa e um alçapão mágica?! Que horror!",
+            afirmacao:"afirmação"
+            },
+
+            {
+            texto: "Isso é incrível! Não sabia que existiam ratos tão legais!!!",
+            afirmacao:"afirmação"
+            }
         ]
-    }
-]
+    },
+
+    {
+        enunciado: "Quando vira para pegar a trilha e voltar para a casa você acaba tropeçando e cai no pequeno alçapão. Sua queda parece não ter fim e você decide olhar ao redor. A sua volta o mundo parece invertido, você vê um crocodilo laranja andando no que parece ser uma parde, um canguru-cobra roxo rastejando em uma superfície e muitas outras coisas bizarras, quando você menos espera está no chão, pelo menos é o que você acha, está macio demais e resolve conferir, você nota então que o chão parece ser feito de mochis. Sua reação é:",
+        alternativas: [
+            {
+            texto: "Mochi???!!! Onde eu estou?",
+            afirmacao:"afirmação"
+            },
+
+            {
+            texto: "Que legal! Mochi por todo canto! Que legar incrível é esse?",
+            afirmacao:"afirmação"
+            }
+        ]
+    },
+
+];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta() {
+    perguntaAtual = perguntas [atual];
+    caixaPerguntas.textContent = perguntas.enunciado;
+}
+
+mostraPergunta ();
