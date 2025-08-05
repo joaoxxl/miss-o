@@ -37,7 +37,7 @@ const perguntas = [
     },
 
     {
-        enunciado: "Em todo caso sua melhor opção é explorar o lugar e procurar uma maneira de voltar para casa"
+        enunciado: 'Em todo caso sua melhor opção é explorar o lugar e procurar uma maneira de voltar para casa. Você começa a andar, o chão de mochi é estranhamente firme, e após um tempo começa a avistar o que parece ser uma floresta ao longe. Após 5 minutos você chega na entrada da floresta e vê, novamente, o rato rosa. —'
     }
 
 ];
