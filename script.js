@@ -37,7 +37,7 @@ const perguntas = [
     },
 
     {
-        enunciado: 'Em todo caso sua melhor opção é explorar o lugar e procurar uma maneira de voltar para casa. Você começa a andar, o chão de mochi é estranhamente firme, e após um tempo começa a avistar o que parece ser uma floresta ao longe. Após 5 minutos você chega na entrada da floresta e vê, novamente, o rato rosa. —'
+        enunciado: 'Em todo caso sua melhor opção é explorar o lugar e procurar uma maneira de voltar para casa. Você começa a andar, o chão de mochi é estranhamente firme, e após um tempo começa a avistar o que parece ser uma floresta ao longe. Após 5 minutos você chega na entrada da floresta e vê, novamente, o rato rosa. — Olá, vi você lá em cima. Por acaso me seguiu? — Você olha ao redor assustado, procurando de onde veio esse som, ainda em choque olha para baixo e vê o rato te olhando, esperando sua resposta. E sua resposta será:'
     }
 
 ];
