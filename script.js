@@ -9,7 +9,7 @@ const perguntas = [
         enunciado:"Enquanto você voltava para casa se deparou com um rato rosa e resolveu segui-lo. Depois de caminhar por 5 minutos atrás do rato você o seguiu para dentro de uma floresta. Entre as árvores você avistou um alçapão na beira de uma árvore, grande o suficiente para que pudesse se encolher e passar. Diante disso sua reação foi:",
         alternativas: [
             {
-            texto: "Isso é assustador! Um rato rosa e um alçapão mágica?! Que horror!",
+            texto: "Isso é assustador! Um rato rosa e um alçapão mágico?! Que horror!",
             afirmacao:"afirmação"
             },
 
@@ -29,11 +29,16 @@ const perguntas = [
             },
 
             {
-            texto: "Que legal! Mochi por todo canto! Que legar incrível é esse?",
+            texto: "Que legal! Mochi por todo canto! Que lugar incrível é esse?",
             afirmacao:"afirmação"
             }
+
         ]
     },
+
+    {
+        enunciado: "Em todo caso sua melhor opção é explorar o lugar e procurar uma maneira de voltar para casa"
+    }
 
 ];
 
