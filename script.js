@@ -6,80 +6,80 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola real, você se depara com uma antiga lenda contada por seus pais sobre um artefato mágico perdido. Qual o primeiro pensamento?",
+        enunciado: "Assim que você acorda em sua casa, você se depara com uma nova descoberta em sua rotina: uma porta secreta que leva a um mundo alternativo e colorido. Qual o primeiro pensamento?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início, a princesa ficou com receio de que a lenda fosse real e que sua busca por esse artefato pudesse trazer perigos desconhecidos ao seu reino."
+                afirmacao: "No início, o rato rosa ficou um pouco assustado com a ideia de sair de seu mundo seguro e entrar em algo desconhecido. Ele temia o que poderia encontrar lá fora."
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Ela ficou empolgada, sonhando em encontrar o artefato e usá-lo para proteger o reino e trazer prosperidade a todos."
+                afirmacao: "Ele ficou encantado! A ideia de explorar um mundo tão colorido e misterioso o deixou cheio de curiosidade e empolgação."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta da lenda, o sábio do reino decide lhe dar uma missão: encontrar o artefato perdido. No final de uma reunião, ele pede que você escreva uma carta sobre o que você espera da jornada. Qual atitude você toma?",
+        enunciado: "Com a descoberta dessa porta mágica, o rato rosa decidiu que deveria explorar mais esse novo mundo. Mas, antes de sair, ele encontra um mapa mágico que mostra a localização de vários locais incríveis. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Escreve a carta pedindo conselhos aos anciãos do reino e buscando saber mais sobre as histórias que cercam o artefato.",
-                afirmacao: "A princesa escreveu uma carta com perguntas e pediu ajuda aos sábios, desejando aprender mais sobre o que esperar dessa jornada misteriosa."
+                texto: "Decide seguir o mapa e explorar os lugares mais remotos, como a Montanha Arco-Íris e a Floresta das Luzes.",
+                afirmacao: "O rato rosa adorava aventuras e ficou animado com a possibilidade de explorar os locais mais incríveis que o mapa mostrava."
             },
             {
-                texto: "Escreve a carta contando sobre o seu desejo de se aventurar e como está determinada a cumprir a missão com coragem.",
-                afirmacao: "Ela sentiu que o reino precisava de uma líder forte e determinada, então escreveu uma carta cheia de confiança e ambição para mostrar sua disposição para a aventura."
+                texto: "Decide fazer uma lista de locais e visitar primeiro os lugares mais próximos, para ter certeza de que o mundo é seguro.",
+                afirmacao: "O rato rosa era prudente e preferiu começar sua jornada de maneira mais cautelosa, testando o ambiente e conhecendo aos poucos os mistérios desse novo mundo."
             }
         ]
     },
     {
-        enunciado: "Após escrever a carta, você parte para a jornada com sua comitiva. Durante o caminho, você encontra uma vila onde as pessoas estão sofrendo com uma ameaça misteriosa. Como você se posiciona?",
+        enunciado: "Durante sua jornada, o rato rosa encontra um grupo de criaturas mágicas que pedem ajuda para resolver um problema. Como você se posiciona?",
         alternativas: [
             {
-                texto: "Decide ajudar os aldeões, acreditando que sua missão pode ser completada enquanto resolve o problema da vila.",
-                afirmacao: "A princesa acreditava que sua missão tinha mais a ver com ajudar o próximo, e ela decidiu que proteger o povo era tão importante quanto encontrar o artefato."
+                texto: "Decide ajudar as criaturas, acreditando que sua magia pode ser a chave para salvar o mundo colorido.",
+                afirmacao: "Ele sentiu que a sua magia especial poderia ser útil e decidiu usar seus poderes para ajudar as criaturas e restaurar a harmonia do lugar."
             },
             {
-                texto: "Pede para os aldeões aguardarem, pois acredita que sua missão maior é encontrar o artefato e que ajudar agora pode atrasar a jornada",
-                afirmacao: "Ela estava focada em sua missão e sentia que se ajudasse os aldeões, poderia acabar perdendo tempo precioso para o futuro de seu reino."
+                texto: "Agradece pela oferta, mas prefere continuar sua jornada sozinho, para aprender mais sobre o mundo e suas próprias habilidades.",
+                afirmacao: "O rato rosa sentiu que essa era sua jornada pessoal e queria explorar mais sobre si mesmo antes de se envolver com outros problemas."
             }
         ]
     },
     {
-        enunciado: "No final de um longo dia de viagem, você precisa desenhar um mapa para guiar seu grupo pela floresta densa. E agora?",
+        enunciado: "Após resolver uma série de enigmas e desafios no caminho, o rato rosa encontra um campo mágico cheio de flores que dançam ao som do vento. Ele precisa escolher uma flor para levar. E agora?",
         alternativas: [
             {
-                texto: "Desenha um mapa com base no que aprendeu com os antigos exploradores do reino.",
-                afirmacao: "A princesa usou seus conhecimentos e os relatos de antigos exploradores para desenhar um mapa preciso que ajudaria a todos a atravessarem a floresta."
+                texto: "Escolhe a flor mais brilhante, acreditando que ela terá algum poder especial e o ajudará em sua jornada.",
+                afirmacao: "O rato rosa escolheu a flor mais iluminada, esperando que ela tivesse algum poder mágico que o ajudaria a conquistar seus objetivos."
             },
             {
-                texto: "Decide usar um feitiço antigo para invocar uma criatura mística que possa ajudá-la a desenhar um mapa mágico que guie sua comitiva.",
-                afirmacao: "Ela usou seus poderes de magia para invocar um espírito guardião da floresta, que desenhou para ela um mapa encantado que tornaria o caminho mais seguro."
+                texto: "Escolhe a flor que mais lhe encanta, sem se preocupar com o poder, mas com a beleza e a paz que ela traz.",
+                afirmacao: "Ele sentiu que a verdadeira magia estava em aproveitar a beleza do momento e escolheu a flor que mais lhe trazia alegria e serenidade."
             }
         ]
     },
     {
-        enunciado: "Durante sua jornada, você encontra um grupo de bandidos que tentam roubar sua comitiva. O que você faz?",
+        enunciado: "Em um ponto de sua jornada, o rato rosa encontra uma bifurcação. Uma estrada leva ao Castelo das Sombras e a outra para a Vila dos Céus. Qual caminho você escolhe?",
         alternativas: [
             {
-                texto: "Decide negociar com os bandidos, oferecendo riquezas do reino em troca de uma passagem segura.",
-                afirmacao: "A princesa tentou apaziguar a situação, oferecendo uma parte dos tesouros do reino, acreditando que a paz seria a melhor solução."
+                texto: "Escolhe o caminho até o Castelo das Sombras, sentindo que lá encontrará um grande desafio que testará seus limites.",
+                afirmacao: "O rato rosa era corajoso e decidiu que enfrentar o desconhecido e os desafios do Castelo das Sombras o faria crescer ainda mais como ser mágico."
             },
             {
-                texto: "Enfrenta os bandidos com coragem, confiando em suas habilidades de combate e na força de sua comitiva para derrotá-los.",
-                afirmacao: "Ela decidiu que a honra de sua missão não poderia ser manchada por bandidos e enfrentou-os com bravura, liderando sua comitiva para a vitória."
+                texto: "Escolhe o caminho até a Vila dos Céus, acreditando que a tranquilidade e a sabedoria lá encontradas o ajudarão a entender melhor seu papel nesse mundo mágico.",
+                afirmacao: "O rato rosa sentiu que precisava de mais paz e sabedoria antes de enfrentar grandes desafios, então escolheu ir para a Vila dos Céus."
             }
         ]
     },
     {
-        enunciado: "Ao final da jornada, você encontra o artefato mágico em um antigo templo guardado por criaturas misteriosas. O artefato é poderoso, mas pode ser perigoso se mal usado. O que você faz?",
+        enunciado: "Após uma longa jornada, o rato rosa encontra um cristal mágico que pode mudar o destino de qualquer ser vivo, mas ele precisa decidir como usá-lo. O que ele faz?",
         alternativas: [
             {
-                texto: "Toma o artefato para si, confiante de que pode usá-lo para proteger seu reino e seu povo.",
-                afirmacao: "A princesa sentiu que o artefato era a chave para salvar seu reino, e com coragem, o tomou em suas mãos."
+                texto: "Usa o cristal para curar o mundo colorido, acreditando que ele pode trazer paz e harmonia a todas as criaturas.",
+                afirmacao: "O rato rosa usou o cristal com sabedoria, curando a terra e trazendo equilíbrio, pois acreditava que a verdadeira magia estava em restaurar o bem para todos."
             },
             {
-                texto: "Decide deixar o artefato onde está, acreditando que seu poder é muito grande e que o reino pode ser melhor protegido com sabedoria e não com força.",
-                afirmacao: "Ela percebeu que o verdadeiro poder não estava no artefato, mas na sabedoria de governar e decidiu deixar o artefato onde estava, acreditando que a maior força estava em seu próprio coração."
+                texto: "Decide guardar o cristal, acreditando que seu poder é muito grande e que, no momento certo, será usado para algo ainda mais importante.",
+                afirmacao: "Ele percebeu que o poder do cristal deveria ser usado com muito cuidado e decidiu esperar o momento certo para utilizá-lo, guardando-o como uma arma secreta para o futuro."
             }
         ]
     }
